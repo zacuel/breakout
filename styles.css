@@ -1,0 +1,36 @@
+body{
+    background-color: brown;
+}
+
+.grid{
+    position: absolute; 
+    width:560px;
+    height: 300px;
+    border: solid 1px black; 
+    left:80px; 
+    top:60px; 
+    background-color: aquamarine;
+}
+
+.block {
+    position: absolute; 
+    /* this positions absolutely inside the parent 
+    as long as the parent's position is */
+    width: 100px;
+    height: 20px;
+    background-color:snow; 
+}
+.user {
+    position: absolute; 
+    width: 100px; 
+    height: 20px;
+    background-color: hotpink; 
+}
+
+.ball{
+    position: absolute;
+    width: 15px; 
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
